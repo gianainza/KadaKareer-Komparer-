@@ -6,7 +6,6 @@
 
 Kareer Komparer is an interactive web application that helps career seekers confidently compare two career paths based on their current skills and personal lifestyle goals. Unlike traditional career quizzes, this tool evaluates both **hard skill matches** and **soft priorities** (salary vs. work-life balance, remote vs. in-person) to generate dynamic pivot scores.
 
-**[🔗 Live Demo](https://your-username.github.io/your-repo-name)** — *Replace with your actual GitHub Pages URL*
 
 ## ✨ Key Features
 
