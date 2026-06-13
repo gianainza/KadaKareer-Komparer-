@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>KadaKareer | Kareer Komparer — Dual Tooltips (Overlap + Gap)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="KadaKareer_Komparer.css">
+</head>
+<body>
+<div class="app-container">
+  <div class="navbar">
+    <div class="logo">Kada<span>Kareer</span> · Komparer</div>
+    <div class="profile-icon"><svg viewBox="0 0 24 24" width="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Career Seeker</div>
+  </div>
+
+  <div id="landingView" class="view">
+    <div class="hero-card"><h1>Hi, Career Seeker! Let's find your perfect path.</h1><div class="hero-sub">Confidently compare career choices based on your current skills and personal lifestyle goals to unlock your next step.</div></div>
+    <div class="compare-card"><div style="text-align:center; font-weight:600; margin-bottom:1rem;">Choose Two Careers to Compare</div>
+      <div class="dropdown-group"><div class="dropdown-field"><label>First Career Path</label><select id="career1Select"><option value="" disabled selected hidden>Select First Career</option></select></div><span class="vs-badge">VS</span><div class="dropdown-field"><label>Second Career Path</label><select id="career2Select"><option value="" disabled selected hidden>Select Second Career</option></select></div></div>
+      <div id="landingError" class="error-message-landing"></div>
+      <button id="generateBtn" class="btn-primary">✨ Generate Alignment Compare</button>
+    </div>
+  </div>
+
+  <div id="dashboardView" class="view hidden-view">
+    <div class="dashboard-header"><h2>🔍 Kareer Komparer Dashboard</h2><button id="backToLandingBtn" class="back-btn">← Back to Career Picker</button></div>
+    <div class="baseline-panel">
+      <div class="skills-area">
+        <label style="font-weight:600;">🧠 My Background/Skills</label>
+        <div class="skills-input-section">
+          <div class="inline-add-wrapper"><input type="text" id="newSkillInput" class="inline-skill-input" placeholder="Start typing a skill (e.g., Python, Figma, SQL)" autocomplete="off"><button id="confirmAddSkillBtn" class="inline-add-btn">+ Add</button></div>
+          <div id="skillErrorMsg" class="error-message"></div>
+          <div id="suggestionsList" class="suggestions-dropdown"></div>
+        </div>
+        <div id="skillPillsContainer" class="pill-container"></div>
+      </div>
+      <div class="priorities-area">
+        <div class="slider-group"><label>⚖️ Salary ↔ Work-Life Balance</label><input type="range" id="prioritySlider1" min="0" max="100" value="45"></div>
+        <div class="slider-group"><label>🌍 Remote ↔ In-Person</label><input type="range" id="prioritySlider2" min="0" max="100" value="70"></div>
+      </div>
+    </div>
+    <div id="comparisonGrid" class="comparison-grid"></div>
+  </div>
+</div>
+<div id="floatingTooltip" class="global-tooltip"></div>
+
+<script src="KadaKareer_Komparer.js"></script>
+</body>
+</html>
