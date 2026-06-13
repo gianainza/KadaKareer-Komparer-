@@ -49,16 +49,6 @@ Kareer Komparer is an interactive web application that helps career seekers conf
 - **Vanilla JavaScript** – No frameworks, pure DOM manipulation
 - **Google Fonts (Inter)** – Modern, readable typography
 
-## 🗂️ Project Structure
-
-kareer-komparer/
-|
-├── index.html          # Complete application (HTML, CSS, JS)
-|
-├── README.md           # This file
-|
-└── assets/             # (Optional) Screenshots, icons, etc.
-
 ## 📦 Installation & Local Development
 
 ```bash
