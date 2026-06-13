@@ -2,8 +2,6 @@
 
 > **Smart career comparison tool that analyzes both logical skill alignment and emotional lifestyle priorities**
 
-![Kareer Komparer Demo](https://via.placeholder.com/800x400?text=Kareer+Komparer+Screenshot)
-
 ## 🌟 Overview
 
 Kareer Komparer is an interactive web application that helps career seekers confidently compare two career paths based on their current skills and personal lifestyle goals. Unlike traditional career quizzes, this tool evaluates both **hard skill matches** and **soft priorities** (salary vs. work-life balance, remote vs. in-person) to generate dynamic pivot scores.
