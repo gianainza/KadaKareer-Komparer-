@@ -52,8 +52,11 @@ Kareer Komparer is an interactive web application that helps career seekers conf
 ## 🗂️ Project Structure
 
 kareer-komparer/
+|
 ├── index.html          # Complete application (HTML, CSS, JS)
+|
 ├── README.md           # This file
+|
 └── assets/             # (Optional) Screenshots, icons, etc.
 
 ## 📦 Installation & Local Development
