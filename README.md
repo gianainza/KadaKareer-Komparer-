@@ -2,6 +2,11 @@
 
 > **Smart career comparison tool that analyzes both logical skill alignment and emotional lifestyle priorities**
 
+# Kadakareer Mission Specialist Mini-Assignment Deliverables
+
+* **[👉 Click Here to View the Deliverable 1: Interactive Prototype](https://gianainza.github.io/KadaKareer-Komparer-/)**
+* **[👉 Click Here to View the Deliverable 2 and 3: AI Build History & Product Notes](https://chat.deepseek.com/share/1ecailu8sxssgg58td)**
+
 ## 🌟 Overview
 
 Kareer Komparer is an interactive web application that helps career seekers confidently compare two career paths based on their current skills and personal lifestyle goals. Unlike traditional career quizzes, this tool evaluates both **hard skill matches** and **soft priorities** (salary vs. work-life balance, remote vs. in-person) to generate dynamic pivot scores.
