@@ -2,7 +2,7 @@
 
 > **Smart career comparison tool that analyzes both logical skill alignment and emotional lifestyle priorities**
 
-# Kadakareer Mission Specialist Mini-Assignment Deliverables
+## Kadakareer Mission Specialist Mini-Assignment Deliverables
 
 * **[👉 Click Here to View the Deliverable 1: Interactive Prototype](https://gianainza.github.io/KadaKareer-Komparer-/)**
 * **[👉 Click Here to View the Deliverable 2 and 3: AI Build History & Product Notes](https://chat.deepseek.com/share/1ecailu8sxssgg58td)**
